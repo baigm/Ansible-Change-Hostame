@@ -12,6 +12,7 @@
 
 - name: Update /etc/hosts file
   replace: dest=/etc/hosts regexp={{ old_hostname }} replace={{ inventory_hostname }}
+  become_user: root
   tags: hostname
 
 
