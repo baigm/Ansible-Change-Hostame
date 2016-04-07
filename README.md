@@ -1,5 +1,5 @@
 # Ansible-Change-Hostname
-Consists of two tasks: 1) Uses Ansible's buitin 'Hostname' module to modify hostname and 2) Uses the 'Replace' module to update the /etc/hosts file
+Consists of two tasks: 1) Uses Ansible's builtin 'Hostname' module to modify hostname and 2) Uses the 'Replace' module to update the /etc/hosts file
 
 In this example, one server is defined in the hosts file along with it's desired hostname (server1), it's IP address and 'ssh_user' to indicate what user to login with.
 
