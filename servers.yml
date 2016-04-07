@@ -1,0 +1,6 @@
+---
+
+- name: setup servers
+  hosts: servers
+  roles:
+    - common	
